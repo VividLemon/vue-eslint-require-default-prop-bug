@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Foo } from '../types';
 
-// type Foo = 'true' | 'false' | '' | boolean
+// type Foo = boolean
 
 const props = withDefaults(defineProps<{
   msg?: Foo | 'foo'
